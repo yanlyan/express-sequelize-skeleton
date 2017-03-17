@@ -1,0 +1,15 @@
+'use strict';
+
+module.exports = {
+  app: {
+    debug: true,                                // turn debugging on/off
+    host: 'localhost',                          // your server host, usually localhost
+    port: 3000                                  // port the server runs on
+  },
+  logger: {
+    name: 'local'                               // logger name
+  },
+  jwtExpired: 3600,
+  jwtSecret: 'express',
+  env: 'development'
+};
